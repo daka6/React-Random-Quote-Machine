@@ -1,0 +1,214 @@
+#root {
+  max-width: 758px;
+  min-width: 492px;
+  height: 600px;
+  background-color: #242424;
+  margin: auto;
+  font-family: "Schoolbell", regular;
+  font-style: normal;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  background-color: blueviolet;
+  border-radius: 80px;
+  color: rgba(255, 255, 255, 0.87);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .complement {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    transform: rotate(100deg);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    position: absolute;
+    top: 93%;
+    left: 45%;
+  }
+}
+
+.text,
+.author {
+  width: 70%;
+  height: auto;
+  text-align: center;
+}
+
+.new-quote {
+  width: 50px;
+  height: 30px;
+  padding: auto;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.87);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  position: absolute;
+  top: 85%;
+  left: 65%;
+  transition: transform 0.1s ease-in-out;
+}
+
+.new-quote:active {
+  transform: scale(0.8);
+}
+
+button:hover {
+  transform: rotate(360deg);
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+
+.tweet-btn {
+  position: absolute;
+  top: 85%;
+  left: 17%;
+}
+
+.intagram-btn {
+  position: absolute;
+  top: 85%;
+  left: 30%;
+}
+
+.facebook-btn {
+  position: absolute;
+  top: 85%;
+  left: 45%;
+}
+
+/*Estilos generales del boton whatsapp*/
+.whatsapp-btn {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 85%;
+  left: 30%;
+
+}
+
+/*Estilos solo al icono whatsapp*/
+.whatsapp-btn i {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#root {
+  max-width: 758px;
+  min-width: 492px;
+  height: 600px;
+  background-color: #242424;
+  margin: auto;
+  font-family: "Schoolbell", regular;
+  font-style: normal;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  background-color: blueviolet;
+  border-radius: 80px;
+  color: rgba(255, 255, 255, 0.87);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .complement {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    transform: rotate(100deg);
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    position: absolute;
+    top: 93%;
+    left: 45%;
+  }
+}
+
+.text, 
+.author {
+  width: 70%;
+  height: auto;
+  text-align: center;
+}
+
+.new-quote {
+  width: 50px;
+  height: 30px;
+  padding: auto;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.87);
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.87);
+  position: absolute;
+  top: 85%;
+  left: 65%;
+  transition: transform 0.1s ease-in-out;
+}
+
+.new-quote:active {
+  transform: scale(0.8);
+}
+button:hover {
+  transform: rotate(360deg);
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+
+
+.tweet-btn {
+  position: absolute;
+  top: 85%;
+  left: 17%;
+}
+
+.intagram-btn {
+  position: absolute;
+  top: 85%;
+  left: 30%;
+}
+
+.facebook-btn {
+  position: absolute;
+  top: 85%;
+  left: 45%;
+}
